@@ -1,0 +1,57 @@
+input.ng-invalid.ng-touched {
+    border: 1px solid red;
+}
+input.ng-valid {
+    border: 1px solid green;
+}
+
+.mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
+  color: rgb(255,255,255);
+  background-color: #bb1f0f;
+}
+
+.card{
+    width: 350px;
+    border: 1px solid #000202;
+    box-shadow: 1px 2px 3px #616161;
+    border-top: 10px solid #44CDDB;
+    min-height: 250px;
+    padding-: 10px;
+    margin: 10px;
+    
+    }
+    
+    .img_cl{
+      border-radius: 50%;
+      width: 70px;
+      margin: 10px;
+    }
+    
+    .h{
+      font-weight: lighter;
+      margin-left: 100px;
+      margin-top: -70px;
+    }
+    
+    .pr{
+      margin: 10px;
+      font-family: segoe ui;
+      line-height: 1.4em;
+      font-size: 1.2em;
+    }
+    
+  
+  #editbtn{
+    background: #1010A5;
+    color: rgb(252, 252, 253);
+}
+  
+
+#delbtn{
+  background: #A51012;
+  color: rgb(252, 252, 253);
+}
+
+ 
+  /* AIzaSyDGfsSXsVgQ5kgGL41txV_WWHEfxtb3VD0 */
+ 

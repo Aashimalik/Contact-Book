@@ -1,0 +1,80 @@
+<!doctype html>
+<html ng-app="myapp">
+    <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+            <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+            <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+            <link rel='stylesheet' href="css/style.css">
+            
+            <base href="/">
+        <title>Contact Book</title>
+    </head>
+    <body>
+    <!-- navigation bar begin -->
+         <!-- <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+                <header class="mdl-layout__header">
+                  <div class="mdl-layout__header-row">
+                    <span class="mdl-layout-title">Contact Book</span>
+                    <div class="mdl-layout-spacer"></div>
+                    <nav class="mdl-navigation">
+                              <a class="mdl-navigation__link" href="#!/">All Contacts</a>
+                              <a class="mdl-navigation__link" href="#!/add">Add to Contact</a>
+                              
+                    </nav>
+                  </div>
+                </header>  -->
+                <!-- navigation bar end -->
+                <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+                        <header class="mdl-layout__header">
+                          <div class="mdl-layout__header-row">
+                            <span class="mdl-layout-title">Contact Book</span>
+                            <div class="mdl-layout-spacer"></div>
+                            <nav class="mdl-navigation">
+                                    <a class="mdl-navigation__link" href="#!/">Home</a>
+                                    <a class="mdl-navigation__link" href="#!/add">Add to Contact</a>
+                            </nav>
+                            
+                                  
+                                  <!-- start search form -->
+                                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                                      <label class="mdl-button mdl-js-button mdl-button--icon" for="search-expandable">
+                                          <i class="material-icons">search</i>
+                                      </label>
+                                      <div class="mdl-textfield__expandable-holder">
+  <input class="mdl-textfield__input" ng-model="searchText" type="text" id="search-expandable" />
+ <label class="mdl-textfield__label"  ng-model="searchText" class="form-control"for="search-expandable">Search text</label>
+                                      </div>
+                                  </div>
+                                  <!-- end search form -->
+                                  
+                          </div>
+                        </header>
+                          <div class="mdl-layout__drawer">
+                          <span class="mdl-layout-title">Contact Book</span>
+                          <nav class="mdl-navigation">
+                                <a class="mdl-navigation__link" href="#!/">All Contacts</a>
+                                <a class="mdl-navigation__link" href="#!/add">Add to Contact</a>
+                          </nav>
+                        </div>
+                        <main class="mdl-layout_content">
+                            <div class="page-content"><div ng-view>
+                                </div>
+                            </div></main>
+                        </div>
+                      </div>
+
+                     <!-- <div ng-view>
+                                </div> -->
+        
+        <footer>
+            &copy;2017
+        </footer>
+        <script src="lib/angular.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="lib/angular-route.min.js"></script>     
+        <script src="lib/angular-messages.min.js"></script>
+    </body>
+    </html>
+    

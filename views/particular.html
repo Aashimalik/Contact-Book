@@ -1,0 +1,51 @@
+<div class="container">
+<div class="row">
+  <div class="col-sm-4 col-sm-offset-1">
+<div style="width:500px">
+    <div class="card">
+            <img class="img_cl" src="http://media.npr.org/assets/news/2009/10/27/facebook1_sq-17f6f5e06d5742d8c53576f7c13d5cf7158202a9.jpg?s=16" alt="" />
+            <h1 class="h">{{contact.name}}</h1>
+            <p class="pr"><b>Phone no :</b>{{contact.phno}}<br>
+          <b> Email : </b>{{contact.email}}<br>
+       <b>Address: </b>{{contact.address}}</p>
+          </div>    
+          </div>
+    </div>
+    <div class="col-sm-4 col-sm-offset-1">
+        <div style=" margin:10px 10px 0px 0px;">
+            <iframe width="600" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=yamuna vihar,delhi,india&key=AIzaSyDGfsSXsVgQ5kgGL41txV_WWHEfxtb3VD0" allowfullscreen></iframe>
+            
+          <!-- <a href="/"> <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" ng-click="redirect()">
+            <i class="material-icons">keyboard_arrow_right</i>
+          </button></a> -->
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-1">
+        <ion-floating-menu>
+            <a href="#!/update/{{contact._id}}"><button id="editbtn" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" ><i class="material-icons">mode_edit</i></button></a>
+            <a href="#!/deleteContact/{{contact._id}}"> <button id="delbtn" class=" mdl-button show-modal mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                <i class="material-icons">delete</i>
+              </button></a>
+            <a href="/"> <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" >
+                <i class="material-icons">keyboard_backspace</i>
+              </button></a> <br>
+                
+        </ion-floating-menu>
+  
+    </div>
+</div>
+<!-- <ion-floating-menu>
+    <a href="/"> <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" ng-click="redirect()">
+        <i class="material-icons">keyboard_arrow_right</i>
+      </button></a> <br>
+      <a href="/"> <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" ng-click="redirect()">
+          <i class="material-icons">keyboard_arrow_right</i>
+        </button></a> <br>
+        <a href="/"> <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" ng-click="redirect()">
+            <i class="material-icons">keyboard_arrow_right</i>
+          </button></a> 
+</ion-floating-menu> -->
+</div>
+         

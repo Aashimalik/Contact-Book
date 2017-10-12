@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+
+<div class="col-sm-8 col-sm-offset-2">
+<ul class="demo-list-two mdl-list" ng-repeat="contact in contacts  | filter:searchText |orderBy:'name' ">
+        <li class="mdl-list__item mdl-list__item--two-line">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons mdl-list__item-avatar">person</i>
+            <a href="#!/particular/{{contact._id}}"><span>{{contact.name}}</span>
+            <!-- <span class="mdl-list__item-sub-title">{{contact.phno}}</span> -->
+            <span class="mdl-list__item-sub-title"><span class="glyphicon glyphicon-earphone "></span>{{contact.phno}}</span>
+            </a>
+          </span>
+          <span class="mdl-list__item-secondary-content">
+            <span class="mdl-list__item-secondary-info">View</span>
+            <a class="mdl-list__item-secondary-action" href="#!/particular/{{contact._id}}"><i class="material-icons">star</i></a>
+          </span>
+        </li>
+      </ul>
+</div>
+    </div>
+</div>
+
